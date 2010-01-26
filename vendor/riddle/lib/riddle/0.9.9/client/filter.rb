@@ -15,7 +15,7 @@ class Riddle::Client::Filter
       when FalseClass
         0
       else
-        val
+        val.to_i
       end
     }
   end
